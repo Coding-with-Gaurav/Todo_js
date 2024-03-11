@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(10, 87, 87);
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap')
+}
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: #5c2222;
+    margin-left: 33%;
+    margin-top: 5px;
+    border-radius: 15px;
+    block-size: contain;
+    background-image: url(img2.jpeg);
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px dashed rgb(6,145, 145);
+    outline: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+}
+button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(64, 33, 204);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.text ul{
+    position: relative;
+    font-size: 19px;
+    text-align: left;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    
+
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+    
+
+}
+@media screen and (min-width: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-item p {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.todo-item i {
+    cursor: pointer;
+    margin-left: 10px;
+}
